@@ -12,9 +12,9 @@ class CPU:
         self.reg = [0] * 8
         self.pc = 0
         self.stack = 0
-        self.L = None  # less than flag
-        self.G = None  # greater than flag
-        self.E = None  # equal flag
+        self.L = 0  # less than flag
+        self.G = 0  # greater than flag
+        self.E = 0  # equal flag
 
     def load(self):
 
