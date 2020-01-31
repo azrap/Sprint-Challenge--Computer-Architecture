@@ -104,9 +104,7 @@ class CPU:
 
     def run(self):
         """Run the CPU."""
-        # IR = self.ram_read(self.pc)
-        # operand_a = self.ram_read(self.pc+1)
-        # operand_b = self.ram_read(self.pc+2)
+
         HLT = 0b00000001
         LDI = 0b10000010
         PRN = 0b01000111
